@@ -24,8 +24,9 @@
             <p>Halo <b>{{ $data->nama }}</b>, silakan lakukan pembayaran ke rekening berikut:</p>
 
             <div class="alert alert-info">
-                <b>Bank BRI</b><br>
-                No Rekening: <b>0817 1234 3535</b><br>
+                <b>Neo Bank</b><br>
+                No Rekening: <b>5859457227810986</b><br>
+                <b><img src="{{ asset('images/QR.jpeg') }}" width="200" height="200"></b>
                 A/N: <b>Keni</b>
             </div>
 

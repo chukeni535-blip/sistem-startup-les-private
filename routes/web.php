@@ -59,6 +59,7 @@ Route::delete('/pembayaran/{id}', [PembayaranController::class, 'destroy'])
 
 Route::get('/pembayaran/bayar/{id}', [PembayaranController::class, 'bayar'])
     ->name('pembayaran.bayar');
+    
 Route::get('/pembayaran/{id}/instruksi', 
     [PembayaranController::class, 'instruksi'])
     ->name('pembayaran.instruksi');
@@ -68,3 +69,7 @@ Route::get('/pembayaran/upload/{id}', [PembayaranController::class, 'uploadForm'
 
 Route::post('/pembayaran/upload/{id}', [PembayaranController::class, 'uploadStore'])
     ->name('pembayaran.upload.store');
+
+    Route::get('/pembayaran/laporan/{id}', 
+    [PembayaranController::class, 'laporan']
+)->name('pembayaran.laporan');

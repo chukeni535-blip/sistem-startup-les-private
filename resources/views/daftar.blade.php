@@ -43,7 +43,7 @@
                     <select name="paket" class="form-select" required>
                         <option value="">-- Pilih Paket --</option>
                         <option value="Paket SD">Paket SD - Rp 150.000</option>
-                        <option value="Paket SMP">Paket SMP - Rp 250.000</option>
+                        <option value="Paket SMP">Paket SMP - Rp 200.000</option>
                         <option value="Paket SMA">Paket SMA - Rp 350.000</option>
                     </select>
                 </div>
